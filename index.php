@@ -57,7 +57,7 @@
         <h2 class="card-title"> <?php $Second->setName() ?> </h2>
         <h3 class="card-title"> <?php $Second->setSub() ?> </h3>
         <div>
-          <?php $Best->setInfo() ?>
+          <?php $Second->setInfo() ?>
         </div>
         <p class="card-text">
         <ul>
@@ -78,7 +78,7 @@
         <h2 class="card-title"> <?php $Third->setName() ?> </h2>
         <h3 class="card-title"> <?php $Third->setSub() ?> </h3>
         <div>
-          <?php $Best->setInfo() ?>
+          <?php $Third->setInfo() ?>
         </div>
         <p class="card-text">
         <ul>
