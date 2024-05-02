@@ -21,6 +21,8 @@ class Movie{
 
   public function setName(){
 
+    $this->getName();
+    
   }
   public function setSub(){
 
@@ -30,8 +32,8 @@ class Movie{
 
   public function getName(){
 
-    return 
-    
+    echo "$this->title";
+
   }
   public function getSub(){
 

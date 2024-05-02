@@ -1,6 +1,6 @@
 <?php 
 
-  require_once __DIR__. '/model/Movie.php';
+  require_once __DIR__. '/Model/Movie.php';
 
   $Titanic = new Movie('Titanic', 'no-sub', 'drama');
 
@@ -20,6 +20,10 @@
 <body>
   
   <h1>OOP-1</h1>
+
+  <div>
+    <?php $Titanic->setName() ?>
+  </div>
 
 </body>
 </html>
