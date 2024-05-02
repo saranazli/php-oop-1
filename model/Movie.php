@@ -31,6 +31,11 @@ class Movie{
     $this->getSub();
 
   }
+  public function setInfo(){
+
+    $this->getInfo();
+
+  }
 
   /*GETTER*/
 
@@ -42,6 +47,11 @@ class Movie{
   public function getSub(){
 
     echo "$this->subtitle";
+
+  }
+  public function getInfo(){
+
+    echo "$this->gen, $this->mainActor, $this->director";
 
   }
   
