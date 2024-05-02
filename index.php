@@ -2,10 +2,12 @@
 
   require_once __DIR__. '/Model/Movie.php';
 
-  $Titanic = new Movie('Titanic', 'no-sub', 'drama');
+  $Best = new Movie('Titanic', 'titanic', 'drama');
 
-  $Titanic -> mainActor = 'Leonardo Di Caprio';
-  $Titanic -> director = 'James Cameron';
+  $Best -> mainActor = 'Leonardo Di Caprio';
+  $Best -> director = 'James Cameron';
+
+  $Second = new Movie('Le Cronache di Narnia', 'Il leone, la strega e l armadio', 'avventura');
 
 ?>
 
@@ -21,9 +23,20 @@
   
   <h1>OOP-1</h1>
 
+  <h2>
+    <?php $Best->setName() ?>
+  </h2>
   <div>
-    <?php $Titanic->setName() ?>
+    <?php $Best->setSub() ?>
   </div>
+
+  <h2>
+    <?php $Second->setName() ?>
+  </h2>
+  <div>
+    <?php $Second->setSub() ?>
+  </div>
+
 
 </body>
 </html>
